@@ -1,0 +1,28 @@
+
+
+#contact {
+
+    .contact-links{
+        p, a {
+            color: #f58e33;
+            font-size: 20px;
+            font-weight: bold;
+            width: fit-content;
+            &:hover {
+                background-color: #DFBFFF;
+            }
+        }
+    } 
+    .contact-callout {
+        font-weight: bold;
+        font-size: 24px;
+        text-align: end;
+        margin: 3rem 0 3rem auto;
+        @media (min-width: 768px) {
+            font-size: 32px;
+            width: 50%;
+            margin: 6rem 0 6rem auto;
+        }
+    }
+
+}

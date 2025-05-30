@@ -1,0 +1,26 @@
+
+section.hero {
+    margin-bottom: 8rem;
+    .hero-img--mobile {
+        img {
+            width: 100%;
+        }
+        @media (min-width: 768px) {
+            display: none;
+        }
+    }
+    h1, p {
+        font-family: "JetBrains Mono", monospace;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 72px;
+        text-shadow: -2px 0 #00ffff, 2px 0 #ff00ff;
+        text-align: center;
+        white-space: nowrap;
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+} 
+
